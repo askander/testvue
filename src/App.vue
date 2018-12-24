@@ -8,12 +8,15 @@
     <v-btn icon>
       <v-icon>more_vert</v-icon>
     </v-btn>
-  </v-toolbar>
-   
+  </v-toolbar>  
 
     <v-content>
       <HelloWorld/>
     </v-content>
+    <v-footer class="pa-3" color="primary lighten-1">
+     <v-spacer></v-spacer> 
+     <div>&copy;2018 askander</div>
+    </v-footer>
   </v-app>
 </template>
 
